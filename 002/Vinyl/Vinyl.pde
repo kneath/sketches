@@ -16,7 +16,7 @@ void setup() {
   background(darkGrey);
   
   noFill();
-  strokeWeight(18);
+  strokeWeight(15);
   strokeCap(ROUND);
   
   for (int layerIndex = 0; layerIndex < layers; layerIndex++) {
