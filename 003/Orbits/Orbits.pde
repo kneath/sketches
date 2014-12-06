@@ -12,7 +12,6 @@ void setup() {
 
   gifExport = new GifMaker(this, "export.gif");
   gifExport.setRepeat(0);             // make it an "endless" animation
-  gifExport.setTransparent(0,0,0);    // black is transparent
 }
 
 void drawOrbit(float diameter, int numStars, float angleOffset, float animationRotation) {
